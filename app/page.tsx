@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import { CardLink } from "./components/cheat-sheet-link";
 
 export default function Home() {
   return (
@@ -23,16 +25,16 @@ export default function Home() {
       <section>
         <h2>Cheat Sheets</h2>
         <p>There is some of my cheat sheets that I create when studing.</p>
-        <div>
-          <h3>HTML</h3>
-          <h3>CSS</h3>
-          <h3>JavaScript</h3>
-          <h3>TypeScript</h3>
-          <h3>React</h3>
-          <h3>Next.js</h3>
-          <h3>TailwindCSS</h3>
-          <h3>Storybook</h3>
-          <h3>Mockoon</h3>
+        <div className="flex gap-2">
+          <CardLink href="/cheat-sheets/html" title="HTML" />
+          <CardLink href="/cheat-sheets/html" title="CSS" />
+          <CardLink href="/cheat-sheets/html" title="JavaScript" />
+          <CardLink href="/cheat-sheets/html" title="TypeScript" />
+          <CardLink href="/cheat-sheets/html" title="React" />
+          <CardLink href="/cheat-sheets/html" title="Next.js" />
+          <CardLink href="/cheat-sheets/html" title="TailwindCSS" />
+          <CardLink href="/cheat-sheets/html" title="Storybook" />
+          <CardLink href="/cheat-sheets/html" title="Mockoon" />
         </div>
       </section>
       <section>
