@@ -27,8 +27,15 @@
   }
 }
 
+code {
+  @apply bg-gray-100 dark:bg-gray-900 rounded-md px-1;
+}
+
 @layer components {
   .display-1 {
     @apply text-8xl font-thin;
+  }
+  .display-2 {
+    @apply text-6xl font-thin;
   }
 }

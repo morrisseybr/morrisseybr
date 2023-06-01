@@ -25,7 +25,7 @@ export default function Home() {
       <section>
         <h2>Cheat Sheets</h2>
         <p>There is some of my cheat sheets that I create when studing.</p>
-        <div className="flex gap-2">
+        <div className="flex gap-2 py-4">
           <CardLink href="/cheat-sheets/html" title="HTML" />
           <CardLink href="/cheat-sheets/html" title="CSS" />
           <CardLink href="/cheat-sheets/html" title="JavaScript" />
