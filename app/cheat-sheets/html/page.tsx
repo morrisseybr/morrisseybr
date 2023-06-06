@@ -1,3 +1,5 @@
+import CheatSheet from "../components/cheat-sheet";
+
 export default function Html() {
   return (
     <>
@@ -11,14 +13,12 @@ export default function Html() {
       <section className="flex flex-col gap-4">
         <h2 className="font-bold uppercase">Basic tags</h2>
         <div className="flex flex-col gap-2">
-          <div className="w-96 p-4 border border-slate-200 rounded-md bg-slate-800">
-            <h3>Div</h3>
-            <hr className="my-2" />
-            <p>
-              The <code>div</code> tag defines a block that can be used to group
-              or layout other HTML elements.
-            </p>
-          </div>
+          <CheatSheet
+            id="div"
+            title="Div"
+            description="The <code>div</code> tag defines a block that can be used to group
+          or layout other HTML elements."
+          />
           <div className="w-96 p-4 border border-slate-200 rounded-md bg-slate-800">
             <h3>Span</h3>
             <hr className="my-2" />
